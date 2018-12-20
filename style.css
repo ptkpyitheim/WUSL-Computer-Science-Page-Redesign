@@ -1,0 +1,471 @@
+html {
+
+}
+
+
+body {
+  background-color: #323232;
+  font-family: "libre Baskerville", serif;
+  color: white;
+  margin: 0 auto;
+  max-width: 1500px;
+  letter-spacing: 0.3px;
+}
+
+.WashU-logo img {
+  height: 70px;
+  width: 140px;
+}
+
+.WashU-logo {
+  background-color: #007360;
+  border-radius: 5px;
+}
+
+.WashU-logo, .branding a {
+  padding-left: 40px;
+  color: white;
+}
+
+.branding {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.branding .sch-eng-and-app-sci {
+  font-size: 15px;
+}
+
+.branding .Com_Sci_and_Eng {
+  font-size: 40px;
+}
+
+/**** Navigation bar ****/
+.nav-bar #entire-bar {
+  text-align: center;
+  color: white;
+  background-color: #6c7373;
+  padding: 5px;
+  height: 50px;
+  align-items: center;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.nav-bar .row .col:hover {
+  background-color: #007360;
+}
+
+
+/**** All about banner ****/
+.banner {
+  position: relative;
+}
+
+.banner video {
+  vertical-align: middle;
+  width: 100%;
+}
+
+.banner .content {
+  position: absolute;
+  top: 50px; right: 0; bottom: 0; left: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.banner .content span {
+  /* font-family: "Roboto", sans-serif;  */
+  color: black;
+  font-size: 2em;
+  background-color: rgba(108, 115, 115, 0.4);
+  border-radius: 20px;
+  padding-left: 30px; padding-right: 30px;
+  animation-name: myBanner;
+  animation-duration: 3s;
+}
+
+.banner .content button {
+  margin: 10px;
+}
+
+@keyframes myBanner {
+  0% {
+    color: #a51417;
+    letter-spacing: 3px;
+  }
+  45% {
+    color: #007360;
+    letter-spacing: 2px;
+  }
+  85% {
+    color: gray;
+    letter-spacing: 1px;
+  }
+
+}
+
+/**** Brief History section ***/
+
+.brief-history #about {
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: #007360;
+  font-size: 20px;
+}
+
+.brief-history .about {
+  font-size: 30px;
+}
+
+.brief-history {
+  margin-top: 30px;
+  text-align: center;
+}
+
+hr {
+  border-top: 3px double #007360;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+
+/**** Second banner section ***/
+
+.second-banner #header-second-banner, #header-third-banner, #header-fourth-banner {
+  border-radius: 10px;
+  background-color: #007360;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  color: white;
+  font-size: 25px;
+}
+
+.second-banner .container-fluid .col-md-5 div {
+  height: 300px;
+  width: auto;
+  margin-bottom: 25px;
+}
+
+.second-banner .container-fluid .col-md-7 #paragraph{
+  overflow: scroll;
+  /* height: 280px; */
+  font-size: 18px;
+}
+
+.second-banner .text-center img {
+  border-radius: 50%;
+  border: 2px solid;
+  border-color: #007360;
+}
+
+.second-banner .img-thumbnail {
+  border: 2px solid;
+  border-color: #a51417;
+}
+
+.second-banner #first-row, #second-row, #third-row {
+  margin-top: 50px;
+}
+
+.second-banner #text-one, #text-two, #text-three {
+  border: solid 2px #007360;
+  border-radius: 10px;
+}
+
+.second-banner .col-md-5 div {
+  margin: auto;
+  width: 50%;
+}
+
+.second-banner #research-area-col-4 {
+  padding: 0px;
+}
+
+.second-banner #research-area-col-4 #text-research-areas {
+  font-size: 25px;
+}
+
+.second-banner #research-icons-texts {
+  margin-right: 10px;
+  border: 1px solid gray;
+}
+
+
+/**** Stats section ***/
+
+.stats-bar, .stats .col {
+  padding: 5px;
+}
+
+#big-num {
+  font-size: 25px;
+  z-index: 1;
+}
+
+.stats-bar p {
+  font-size: 16px;
+  z-index: 1;
+}
+
+.stats .row .col .stats-bar div {
+  margin-top: 5px;
+  margin-left: 15px;
+  height: 35px;
+  background-color: #ff3c38;
+  text-align: right;
+}
+
+.stats .col {
+  text-align: center;
+  margin: auto;
+}
+
+
+/**** Upcoming Events section ***/
+
+#upcoming-events-container .event-info {
+  width: auto;
+  height: auto;
+  text-align: center;
+  padding-bottom: 200px;
+}
+
+#upcoming-events-container .col {
+  background-color: green;
+}
+
+#upcoming-events-container {
+  background-color: black;
+}
+
+
+#upcoming-events-container #event-1 {
+  background-image: url(images/events/auto-encoder.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#upcoming-events-container #event-2 {
+  background-image: url(images/events/alec-remake.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+/*************** Box for Upcoming Events and Recent News ********************/
+
+.stats, #header-third-banner, #header-fourth-banner {
+  margin-top: 60px;
+}
+
+.box {
+  max-width: 100%;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.box .pics img {
+  height: 280px;
+  width: 280px;
+}
+
+.pics {
+  position: relative;
+  margin-top: 10px;
+}
+
+.text-in-img {
+  text-align: center;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  width: 100%;
+  color: white;
+  font: 15px Helvetica, Sans-Serif;
+  letter-spacing: 0.5px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  cursor: pointer;
+}
+
+.text-in-img:hover {
+  background-color: black;
+  font-size: 1em;
+}
+
+.events-and-news-more {
+  text-align: center;
+}
+
+/**** Footer section ***/
+
+.footer {
+  margin-top: 50px;
+}
+
+.footer #footer-bar {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #a51417;
+  height: 30px;
+}
+
+.footer #footer-bar .col {
+  text-align: center;
+}
+
+.footer .social-media-icons img {
+  margin-top: 10px;
+  width: 35px;
+  height: 35px;
+  border: 1px solid;
+  border-radius: 50%;
+  border-color: #007360;
+}
+
+.social-media-icons, .left-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.footer #lists li {
+  list-style-type: none;
+  font-size: 15px;
+}
+
+.footer #lists {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer .media-body span {
+  font-size: 15px;
+}
+
+.left-footer a {
+  margin-top: 12px;
+}
+
+.footer #lists #list-heading {
+  margin-left: 20px;
+  font-size: 20px;
+  color: #007360;
+}
+
+
+
+/*************** Testing ********************/
+
+.each-research-area {
+  display: flex;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+
+#research-icons-texts {
+  overflow: scroll;
+  width: 20px;
+  height: 200px;
+}
+
+.each-research-area .avatar img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-size: cover;
+  border: 1.5px solid;
+  border-color: #007360;
+}
+
+.avatar-text div {
+  padding-top: 8px;
+  padding-left: 8px;
+}
+
+
+/****** Media breakpoints ******/
+
+@media (min-width: 320px) and (max-width: 767px)  {
+  .social-media-icons, .left-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-left: 40px;
+  }
+
+  .social-media-icons img {
+    margin: 40px;
+  }
+
+
+  .box {
+    margin: auto;
+    width: 50%
+  }
+
+  .text-in-img {
+    margin-left: 0px;
+    font-size: 0.4em;
+  }
+
+  .banner .content span {
+    font-size: 1em;
+    margin: auto;
+    width: 50%;
+  }
+
+  .banner #buttons {
+    visibility: hidden;
+  }
+
+  .second-banner #header-second-banner, #header-third-banner, #header-fourth-banner {
+    font-size: 1.2em;
+  }
+
+  .branding .sch-eng-and-app-sci {
+    font-size: 1em;
+  }
+
+  .branding .Com_Sci_and_Eng {
+    font-size: 1.5em;
+  }
+
+  .second-banner .img-thumbnail {
+    margin-top: 20px;
+  }
+
+  .second-banner #text-one, #text-two, #text-three {
+    margin-top: 18px;
+  }
+
+  .second-banner .col-md-5 div {
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  #big-num {
+    font-size: 3vw;
+  }
+
+  .stats-bar p {
+    font-size: 1.5vw;
+  }
+
+
+}
